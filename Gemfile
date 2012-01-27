@@ -18,6 +18,6 @@ group :test do
 end
 
 group :production do
-  gem 'sqlite3-ruby', '1.3.3', :require => 'sqlite3'
+  gem 'sqlite3-ruby', '1.3.3'
   gem 'webrat', '0.7.1'
 end
